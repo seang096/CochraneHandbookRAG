@@ -1,0 +1,19 @@
+*{
+    margin: 10;
+    padding: 10;
+    font-family: 'Inter';
+ }
+ header{
+    display: flex;
+    flex-direction: row; /* This is default so you can omit it but it's good to be explicit  */
+    justify-content: flex-start; /* This will snap all content of header to the left due to 'flex-direction: row'  */
+    background-color: white;
+    border-bottom: solid;
+    padding: 0.5rem 1rem; 
+  }
+ header > div{
+    padding: 20px
+ }
+ h1{
+    vertical-align: middle;
+ }
